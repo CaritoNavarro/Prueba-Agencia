@@ -30,8 +30,6 @@ se debe tener encuenta los aplicativos en los cuales se desarrollo y el motor de
 
 
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
-
 ## Ejecutando las pruebas ⚙️
 
 Para las pruebas se utilizó postman, en donde se creó una colección y se privaron todos los servicios desplegados en esta aplicación.
@@ -43,13 +41,8 @@ https://localhost:[Puerto]/BorrarProductoCarro?idPedido=1
 
 
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [.NET Framework 4.7.2](https://dotnet.microsoft.com/en-us/download/dotnet-framework/net472) - El framework web usado
 * [Entity Framework 6.2.0](https://www.nuget.org/packages/EntityFramework/6.2.0) Entity Framework 6.2.0
