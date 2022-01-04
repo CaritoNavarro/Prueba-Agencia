@@ -18,7 +18,9 @@ se debe tener encuenta los aplicativos en los cuales se desarrollo y el motor de
 
 ### Instalación 🔧
 
-Tener en cuenta para la instalación el crear la base de datos, los archivos para la creación están en el repositorio y no olvidar cambiar  en el web.config  la conexión a la base de datos,  cambiar el servidor, el usuario y  la contraseña 
+* Tener en cuenta para la instalación el crear la base de datos, los archivos para la creación están en el repositorio (Solucion Prueba\BD)
+* la solucion esta en "Solucion Prueba\tiendaApi\tiendaApi.sln"
+* cambiar  en el web.config  la conexión a la base de datos,  cambiar el servidor, el usuario y  la contraseña 
 
 
 ```
