@@ -1,0 +1,209 @@
+{
+	"info": {
+		"_postman_id": "5e7cb74f-1353-45e2-9256-3a721af86b0a",
+		"name": "Prueba agencia",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ListaProductos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44300/ListaProductos",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"ListaProductos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BuscarProducto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44300/BuscarProducto?IdProducto=2",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"BuscarProducto"
+					],
+					"query": [
+						{
+							"key": "IdProducto",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AnnadirProducto",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Cantidad\":3,\r\n    \"IdProducto\":1\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44300/AnnadirProducto?idPedido=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"AnnadirProducto"
+					],
+					"query": [
+						{
+							"key": "pCantidad",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pIdProducto",
+							"value": "3",
+							"disabled": true
+						},
+						{
+							"key": "idPedido",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ActualizarCarro",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Cantidad\":3,\r\n    \"IdProducto\":1\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44300/ActualizarCarro?idPedido=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"ActualizarCarro"
+					],
+					"query": [
+						{
+							"key": "idPedido",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "BorrarProductoCarro",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"IdProducto\":1\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44300/BorrarProductoCarro?idPedido=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"BorrarProductoCarro"
+					],
+					"query": [
+						{
+							"key": "idPedido",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crearcarro",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "con",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Cantidad\":2,\r\n    \"IdProducto\":1\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:44300/CrearCarro",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44300",
+					"path": [
+						"CrearCarro"
+					],
+					"query": [
+						{
+							"key": "pCantidad",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pIdProducto",
+							"value": "3",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
